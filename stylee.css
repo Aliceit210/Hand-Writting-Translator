@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Reenie+Beanie);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+body{
+  position: relative;
+}
+.pen{
+  position: absolute;
+  width: 250px;
+  z-index: 100;
+  top: 95px;
+  right: -50px;
+}
+h1{
+  margin: .75em 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5em;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #746e5e;
+  text-shadow: 1px 1px 1px #fff, -1px 0px 0px rgba(0,0,0,.5);
+}
+#content {
+  -adobe-flow-into: myFlow;
+  -webkit-flow-into: myFlow;
+}
+.postit {
+  font-family: 'Open Sans Condensed';
+  font-size: .9em;
+  position: absolute;
+  padding: 20px 15px;
+  top: 10px;
+  left: -120px;
+  background: #FCF0AD;
+  
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+  transform: rotate(6deg);
+  box-shadow: -1px 1px 7px rgba(0, 0, 0, .6);
+}
+#type {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-left: 12px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #f2c730;
+  background: -webkit-linear-gradient(top, #f2c70a 0%,#eaac0b 100%);
+  font-family: 'Open Sans Condensed';
+}
+#type:hover {
+  background: #eaac0b;
+}
+.stack {
+  position: relative;
+  height: 660px;
+}
+.document {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: -1px 1px 7px rgba(0, 0, 0, .6);
+}
+.toppage.document {
+  z-index: 2;
+}
+.hidden.document {
+  height: 600px;
+  width: 660px;
+  z-index: 1;
+  transform:rotate(2deg);
+}
+.region {
+  -adobe-flow-from: myFlow;
+  -webkit-flow-from: myFlow;
+}
+p {
+  margin: 0;
+}
+.upper {
+  height: 560px;
+  padding: 3em 3em 0 3em;
+  font-size: 1.5em;
+  letter-spacing: -2px;
+  line-height: 75%;
+  font-family: 'Reenie Beanie', cursive;
+}
+.highlighter {
+  background: #F3F315;
+  margin: 0 2em;
+  padding: 0em 1em;
+  height: 1.1em;
+  font-size: 1.5em;
+  letter-spacing: -2px;
+  font-family: 'Reenie Beanie', cursive;
+}
+.lower {
+  height: 3em;
+  padding: 0 4em 3em 4em;
+  line-height: 130%;
+  font-size: .9em;
+  font-family: 'Special Elite', cursive;
+}
+.upper, .lower {
+  background-image: url(https://raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/linedpaper.png);
+  background-attachment:fixed;
+}
+body {
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+  background: #FFDAB9;
+  background-image:url(https://raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/retina_wood.png);
+       -webkit-font-smoothing: antialiased;
+     font-smoothing: antialiased;
+}
+* {
+  box-sizing: border-box; 
+}
